@@ -9,7 +9,7 @@ def select_winner(passengers)
 
   passengers.each do |i,v|
         if i == :suite_a and v[0] == "A"
-          puts passengers[i,v]
+          puts passengers[i]
         end
   end
 
