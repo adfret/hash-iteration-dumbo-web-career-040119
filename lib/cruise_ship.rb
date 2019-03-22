@@ -7,7 +7,7 @@ def select_winner(passengers)
   suite_e: "Crumpet the Elf"
   }
 
-passengers.each |i,v|
+passengers.each do |i,v|
   if i == :suite_a and if v[0] == "A"
     puts v
   end
