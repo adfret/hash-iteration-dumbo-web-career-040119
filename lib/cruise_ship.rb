@@ -9,9 +9,9 @@ def select_winner(passengers)
 
   passengers.each do |i,v|
         if i == :suite_a and v[0] == "A"
-          puts v
+          g = v
         end
   end
-
+g
 
 end
